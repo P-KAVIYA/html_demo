@@ -1,0 +1,20 @@
+    
+.grid-main{
+    display:grid;
+    grid-template-columns:repeat(6,1fr) ;  /* according to no of auto we given it split it into that no of columns*/
+    background-color:cadetblue;
+
+} 
+
+/* 1fr-->1 frame*/
+/* for compatibility we go for repeat it automatically changes if it is mobile or tab */ 
+
+.grid-item{
+    background-color:gold;
+    color:black;
+    border:5px solid black;
+}
+
+/* eg for grid->u tube*/
+/* navigation,less content-->flex*/
+

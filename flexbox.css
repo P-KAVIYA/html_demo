@@ -1,0 +1,13 @@
+.container{
+    display:flex;  /* compuslory    */
+    flex-direction: row;
+    background-color: aqua;
+    justify-content:space-evenly;   /* for gap (spacing)  */
+    flex-wrap:wrap ;   /* for wrap content inside a box  */
+    margin:10%;
+}
+.item{
+    background-color: beige;
+    padding:5%;
+    margin:5%;
+}

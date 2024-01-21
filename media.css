@@ -1,0 +1,34 @@
+.grid-main{
+    display:grid;
+    grid-template-columns:repeat(6,1fr) ;  /* according to no of auto we given it split it into that no of columns*/
+    background-color:cadetblue;
+    justify-content: center;
+} 
+.grid-item{
+    background-color:gold;
+    color:black;
+    border:5px solid gray;
+}
+
+/* 475 ,800 break points */
+
+@media (max-width:300px){   /*upto 475 it is 1*/
+    .grid-main{
+        grid-template-columns: repeat(3,1fr);
+        padding:10px;
+        background-color: rgb(255, 43, 1);
+        font-size:20px;
+        color:azure;
+    }
+}
+@media (min-width:800px){   /* upto 800 it is 4*/
+    .grid-main{
+        grid-template-columns: repeat(4,1fr);
+        padding:10px;
+        background-color: chartreuse;
+        font-size:100px;
+        color:beige;
+    }
+}
+
+/* between 475 & 800 , it is randomly distributed*/

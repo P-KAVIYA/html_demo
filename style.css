@@ -1,0 +1,24 @@
+/* element-->apllying to all h(heading) */
+/* class */
+@media screen 
+.abc{
+    text-align:center;
+    background-color: chartreuse;
+    color:brown
+}
+/* id */
+#list{
+    color:crimson;
+    background-color:gold;
+}
+/* universal */
+*{
+  
+    background-color:antiquewhite;
+    font-size:medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#h11{
+    font-size:xx-large;
+    font-family:'Times New Roman', Times, serif;
+}
